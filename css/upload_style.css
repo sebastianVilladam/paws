@@ -1,0 +1,29 @@
+/*color Codes:
+Main titles: #ff9799 , rgb(255, 151, 153)
+Text 1 (Ligth): #e1e1e1 , rgb(225, 225, 225)
+text 2 (Dark): #5c5c5c , rgb(92, 92, 92)
+up navbar background: #ffeeee , rgb(255, 238, 238)
+main navbar background: #ffdbdb , rgb(255, 219, 219)
+*/
+
+#form-section
+{
+    background-image: url("../resources/upload_form_img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container-fluid
+{
+    padding: 100px 0px;
+    color: #e1e1e1;
+}
+
+#form-title
+{
+    font-family: 'Cookie', cursive;
+    font-size: 80px;
+    color: #ff9799;
+    font-weight: 400;
+}

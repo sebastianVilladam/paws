@@ -1,0 +1,152 @@
+/*color Codes:
+Main titles: #ff9799 , rgb(255, 151, 153)
+Text 1 (Ligth): #e1e1e1 , rgb(225, 225, 225)
+text 2 (Dark): #5c5c5c , rgb(92, 92, 92)
+up navbar background: #ffeeee , rgb(255, 238, 238)
+main navbar background: #ffdbdb , rgb(255, 219, 219)
+*/
+
+body
+{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #5c5c5c;
+}
+/*navbar style*/
+.navbar
+{
+    background: #ffeeee;
+}
+
+.navbar-header
+{
+    float: left;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-brand
+{
+    font-family: 'Cookie', cursive;
+    font-size: 40px;
+    float:none;
+}
+
+
+/* The side navigation menu style */
+.sidenav 
+{
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #ffdbdb; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+
+/* The navigation menu links */
+.sidenav a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #5c5c5c;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover 
+{
+    color: #ff9799;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content */
+#main 
+{
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) 
+{
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*Carousel style*/
+.carousel-inner
+{
+    height: 750px;
+}
+
+.carousel-inner img
+{
+    width: 100%;
+    max-height: auto;
+}
+
+.carousel-caption
+{
+  position: absolute;
+  text-align: left;
+  top: 30%;
+  transform: translateY(10%);
+}
+
+.carousel-caption h5
+{
+    font-family: 'Cookie', cursive;
+    font-size: 80px;
+    color: #ff9799;
+    font-weight: 400;
+}
+
+.carousel-inner p
+{
+    color: #e1e1e1;
+    font-size: 20px;
+}
+
+/*links section style*/
+#links-section
+{
+    padding: 50px 0px 20px 0px;
+}
+
+.card
+{
+    background: #ffeeee;
+}
+
+.card-title
+{
+    color:#ff9799;
+}
+
+/*buttons sytle*/
+.btn-primary
+{
+    background: #5c5c5c;
+    color:#e1e1e1;
+    border-color: #ff9799;
+}
+
+.btn-primary:hover
+{
+    background: #ff9799;
+    border-color: #ff9799;
+}

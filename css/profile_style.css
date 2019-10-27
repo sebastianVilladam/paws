@@ -1,0 +1,47 @@
+/*color Codes:
+Main titles: #ff9799 , rgb(255, 151, 153)
+Text 1 (Ligth): #e1e1e1 , rgb(225, 225, 225)
+text 2 (Dark): #5c5c5c , rgb(92, 92, 92)
+up navbar background: #ffeeee , rgb(255, 238, 238)
+main navbar background: #ffdbdb , rgb(255, 219, 219)
+*/
+
+#info
+{
+    padding: 60px 0px;
+}
+
+#animal-name
+{
+    font-family: 'Cookie', cursive;
+    font-size: 80px;
+    color: #ff9799;
+    font-weight: 400;
+}
+
+#animal-info
+{
+    padding: 0px 0px 0px 20px;
+}
+
+#description
+{
+    padding: 50px 0px 0px 0px;
+}
+
+#form-title
+{
+    background-image: url("../resources/profile_form_imf.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#form-title h1
+{
+    padding: 150px 0px;
+    font-family: 'Cookie', cursive;
+    font-size: 80px;
+    color: #ff9799;
+    font-weight: 400;
+}
